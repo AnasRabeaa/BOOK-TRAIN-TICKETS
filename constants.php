@@ -19,7 +19,7 @@ date_default_timezone_set("Africa/Lagos");
 $date = date('D, d-M-Y h:i:s A');;
 $date_small = date('d-M-Y');;
 //INSERT YOUR OWN PAYSTACK API KEYS
-$paystack = "#YOUR_API_KEY"; //Do not change this! Redirect URL http://localhost/train/pro/verify.php
+$paystack = "sk_test_81b799af22061f2e1071444ff43594edcb9d87ed"; //Do not change this! Redirect URL http://localhost/train/pro/verify.php
 if (!function_exists('connect')) {
 
     function connect()
